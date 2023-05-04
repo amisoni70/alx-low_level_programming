@@ -1,1 +1,1 @@
-This is my assignment on bit manipulation
+bit manipulations
