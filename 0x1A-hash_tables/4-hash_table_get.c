@@ -20,7 +20,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	if (index >= ht->size)
 		return (NULL);
 
-	node = ht->array[index}; /*points to 1st index in the array*/
+	node = ht->array[index]; /*points to 1st index in the array*/
 	while (node && strcmp(node->key, key) != 0)
 		node = node->next;
 
